@@ -1,7 +1,7 @@
 
 # My RESTful Ruby Application
 
-![Ruby](https://img.shields.io/badge/Ruby-2.7.0-red)
+![Ruby](https://img.shields.io/badge/Ruby-3.3.0-red)
 
 ## 📜 Description
 
