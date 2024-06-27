@@ -16,7 +16,7 @@ namespace :dev do
         name: Faker::Name.name,
         email: Faker::Internet.email,
         birthdate: Faker::Date.between(from: 60.years.ago, to: 18.years.ago),
-        type_id: Type.all.sample
+        type_id: Type.all.sample.id
       )
     end
     puts 'Contacts generated succesfully!'
