@@ -38,6 +38,7 @@ class ContactsController < ApplicationController # :nodoc:
   # DELETE /contacts/1
   def destroy
     @contact.destroy!
+    render json: 'Removed'
   end
 
   private
