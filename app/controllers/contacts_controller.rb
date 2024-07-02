@@ -50,6 +50,6 @@ class ContactsController < ApplicationController # :nodoc:
 
   # Only allow a list of trusted parameters through.
   def contact_params
-    params.require(:contact).permit(:name, :email, :birthdate)
+    params.require(:contact).permit(:name, :email, :birthdate, :type_id)
   end
 end
