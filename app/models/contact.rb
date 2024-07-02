@@ -2,6 +2,7 @@
 
 class Contact < ApplicationRecord # :nodoc:
   belongs_to :type
+  has_many :phones
 
   def author
     'Pedro Barbosa'
