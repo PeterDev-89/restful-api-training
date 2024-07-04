@@ -12,7 +12,7 @@ class ContactsController < ApplicationController # :nodoc:
 
   # GET /contacts/1
   def show
-    render json: @contact
+    render json: @contact, include: [:phones]
   end
 
   # POST /contacts
