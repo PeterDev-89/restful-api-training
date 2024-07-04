@@ -37,8 +37,15 @@ gem 'rack-cors'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  # Byebug is a Ruby debugger. [https://github.com/deivid-rodriguez/byebug]
   gem 'byebug'
+
+  # Debugging functionality for Ruby. [https://github.com/ruby/debug]
   gem 'debug', platforms: %i[mri windows]
+
+  # Loads environment variables from `.env`. [https://github.com/bkeepers/dotenv]
   gem 'dotenv'
+
+  # Used Faker to easily generate fake data: names, addresses, phone numbers, etc. [https://github.com/faker-ruby/faker]
   gem 'faker'
 end
